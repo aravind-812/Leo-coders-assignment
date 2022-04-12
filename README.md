@@ -1,6 +1,6 @@
-# To-do list API
+# User managment API
 
-This repo is a basic `TO-DO list` app which perform CRUD operations.
+This repo is a basic `User Managment` app which perform CRUD operations.
 
 ## The Stack
 
@@ -8,7 +8,6 @@ The following languages, frameworks, APIs, and services were used to create the 
 
 - Node.js & Express.js
 - MongoDB (Hosted on AWS)
-- Heroku (PaaS Hosting) -- `Pending`
 
 ## Steps to run:
 1. Clone the repo
@@ -22,24 +21,26 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 
 - `POST` Create a new task
 - `PATCH` Update a task
-- `GET` Get's a task or list of tasks
+- `GET` Get's a task or list of user
 - `DELETE` Delete a task
 
 
 ### Sample `POST/PATCH` request:
 ```
 {
-"name":"Refactor API code",
-"completed":false (by default false)
+    "email" : "aravind@google.com",
+    "password" : "1234",
+    "name" : "Aravind"
+
 }
 ```
 ### Sample url for `DELETE` request:
-Delete tasks by id:
+Delete user by id:
 ```
 DELETE /api/v1/tasks/:id
 ```
-### Sample url for `GET` request (Displays all tasks):
-Gets all the tasks:
+### Sample url for `GET` request (Displays all user):
+Gets all the users:
 ```
 GET /api/v1/tasks/
 ```
