@@ -37,15 +37,15 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 ### Sample url for `DELETE` request:
 Delete user by id:
 ```
-DELETE /api/v1/tasks/:id
+DELETE /api/v1/users/:id
 ```
 ### Sample url for `GET` request (Displays all user):
 Gets all the users:
 ```
-GET /api/v1/tasks/
+GET /api/v1/users/
 ```
 ### Sample url to `GET` a specific task:
 Gets a specific task:
 ```
-GET /api/v1/tasks/:id
+GET /api/v1/users/:id
 ```

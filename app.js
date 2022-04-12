@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static('./public'))
 
 //Routes
-app.use('/api/v1/tasks', tasks)
+app.use('/api/v1/users', tasks)
 
 
 const start = async () => {
