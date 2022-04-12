@@ -26,7 +26,7 @@ All API requests are made by sending a secure HTTPS request using one of the fol
 
 
 ### Sample `POST/PATCH` request:
-#### POST/PATCH url: /api/v1/users/
+#### `POST/PATCH` url: /api/v1/users/
 ```
 {
     "email" : "aravind@google.com",
