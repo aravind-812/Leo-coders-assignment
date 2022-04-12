@@ -44,7 +44,7 @@ Gets all the users:
 ```
 GET /api/v1/users/
 ```
-### Sample url to `GET` a specific task:
+### Sample url to `GET` a specific user:
 Gets a specific task:
 ```
 GET /api/v1/users/:id
